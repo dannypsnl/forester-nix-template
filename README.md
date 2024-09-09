@@ -1,6 +1,10 @@
 # forester-nix-template
 
-This project is a starter template to have a new forest, it uses `nix flake` to manage dependencies. Before you start, you should modify configuration `./forest.toml`, `./deploy/forest.toml`, and `./public-trees/root.tree`, to use your customize data. Base on this project, trees in `private-trees` will not be rendered to `deploy/output`, so aware if `public-trees` is referring to a tree in `private-trees` will break `release` command.
+This project is a starter template to have a new forest, it uses `nix flake` to manage dependencies.
+
+## Setup
+
+Before you start, you should modify configuration `./forest.toml`, `./deploy/forest.toml`, and `./public-trees/root.tree`, to use your customize data. Base on this project, trees in `private-trees` will not be rendered to `deploy/output`, so aware if `public-trees` is referring to a tree in `private-trees` will break `release` command.
 
 ## Build commands
 
