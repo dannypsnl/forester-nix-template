@@ -1,0 +1,7 @@
+[forest]
+trees = ["public-trees", "private-trees"]
+assets = ["assets"]
+theme = "forester-base-theme"
+root = "root"
+base_url = "your domain"
+stylesheet = "default.xsl"
