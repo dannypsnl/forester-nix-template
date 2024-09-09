@@ -1,12 +1,14 @@
 # forester-nix-template
 
-This project is a starter template to have a new forest, it use `nix flake` to manage dependencies and provide basic commands
+This project is a starter template to have a new forest, it uses `nix flake` to manage dependencies. Before you start, you should modify configuration `./forest.toml`, `./deploy/forest.toml`, and `./public-trees/root.tree`, to use your customize data. Base on this project, trees in `private-trees` will not be rendered to `deploy/output`, so aware if `public-trees` is referring to a tree in `private-trees` will break `release` command.
+
+## Build commands
+
+I recommend using `direnv` and `cat "use flake" > .envrc` and enable it, so you can use below commands
 
 1. `build` render current `public-trees` and `private-trees`
 2. `release` render `public-trees` to `deploy/output/`
 3. `cleanup` remove `output/` and `deploy/output`
-
-Before you start, you should modify configuration `./forest.toml`, `./deploy/forest.toml`, and `./public-trees/root.tree`, to use your customize data. Base on this project, trees in `private-trees` will not be rendered to `deploy/output`, so aware that `public-trees` is referring to a tree in `private-trees`, that will break `release` command.
 
 ## Update dependencies
 
