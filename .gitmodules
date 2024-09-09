@@ -4,3 +4,6 @@
 [submodule "forester-to-latex"]
 	path = forester-to-latex
 	url = https://git.sr.ht/~jonsterling/forester-to-latex
+[submodule "assets"]
+	path = assets
+	url = https://git.sr.ht/~jonsterling/forest-assets
