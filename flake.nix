@@ -8,7 +8,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     forester = {
-      url = "git+https://git.sr.ht/~jonsterling/ocaml-forester?rev=ff43ce64865ffdc8a4394abbbd3dae6bc9f82471";
+      url = "sourcehut:~jonsterling/ocaml-forester?rev=ff43ce64865ffdc8a4394abbbd3dae6bc9f82471";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
